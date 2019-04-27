@@ -1,0 +1,4 @@
+/snap/clion/69/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/keys/CLionProjects/OpenCV_move_remove
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug

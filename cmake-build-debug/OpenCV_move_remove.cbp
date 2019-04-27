@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenCV_move_remove"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\progs\;CMake Files\..\..\progs\opencv\;CMake Files\..\..\progs\opencv\opencv-4.1.0\;CMake Files\..\..\progs\opencv\opencv-4.1.0\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenCV_move_remove">
+				<Option output="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/OpenCV_move_remove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/build"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/core/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/flann/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/imgproc/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/ml/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/phase_unwrapping/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/photo/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/plot/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/quality/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/reg/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/surface_matching/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/xphoto/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/dnn/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/freetype/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/fuzzy/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/gapi/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/hfs/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/img_hash/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/imgcodecs/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/videoio/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/highgui/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/ts/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/bioinspired/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/dnn_objdetect/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/features2d/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/line_descriptor/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/saliency/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/text/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/calib3d/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/ccalib/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/datasets/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/objdetect/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/rgbd/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/shape/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/structured_light/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/video/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/videostab/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/xfeatures2d/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/ximgproc/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/xobjdetect/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/aruco/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/bgsegm/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/dpm/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/face/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/optflow/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/stitching/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/superres/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/tracking/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/stereo/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV_move_remove"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenCV_move_remove/fast">
+				<Option output="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/OpenCV_move_remove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/build"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/core/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/flann/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/imgproc/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/ml/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/phase_unwrapping/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/photo/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/plot/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/quality/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/reg/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/surface_matching/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/xphoto/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/dnn/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/freetype/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/fuzzy/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/gapi/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/hfs/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/img_hash/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/imgcodecs/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/videoio/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/highgui/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/ts/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/bioinspired/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/dnn_objdetect/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/features2d/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/line_descriptor/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/saliency/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/text/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/calib3d/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/ccalib/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/datasets/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/objdetect/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/rgbd/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/shape/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/structured_light/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/video/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/videostab/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/xfeatures2d/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/ximgproc/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/xobjdetect/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/aruco/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/bgsegm/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/dpm/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/face/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/optflow/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv-4.1.0/modules/stitching/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/superres/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/tracking/include"/>
+					<Add directory="/home/keys/progs/opencv/opencv_contrib-master/modules/stereo/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV_move_remove/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/keys/CLionProjects/OpenCV_move_remove/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/keys/CLionProjects/OpenCV_move_remove/main.cpp">
+			<Option target="OpenCV_move_remove"/>
+		</Unit>
+		<Unit filename="/home/keys/CLionProjects/OpenCV_move_remove/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/keys/CLionProjects/OpenCV_move_remove/../../progs/opencv/opencv-4.1.0/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\progs\opencv\opencv-4.1.0\build\"/>
+		</Unit>
+		<Unit filename="/home/keys/CLionProjects/OpenCV_move_remove/../../progs/opencv/opencv-4.1.0/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\progs\opencv\opencv-4.1.0\build\"/>
+		</Unit>
+		<Unit filename="/home/keys/CLionProjects/OpenCV_move_remove/../../progs/opencv/opencv-4.1.0/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\progs\opencv\opencv-4.1.0\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
